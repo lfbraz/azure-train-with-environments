@@ -1,0 +1,11 @@
+name: using-environments
+dependencies:
+ - python=3.6.9
+ - numpy
+ - scikit-learn
+ - pip:
+    - azureml-defaults
+    - azureml-sdk==1.12.0
+    - pandas
+    - catboost
+    - azure.cosmos==4.0.0
